@@ -21,7 +21,6 @@ class LLM:
                                                   "mais direta possivel sem passar informações "
                                                   "desnecessárias para o usuário. Pergunta: {text}")
             prompt = prompt.format(text=text)
-            print(prompt)
             response = self.client.invoke(prompt)
             return response.content
         except Exception as e:

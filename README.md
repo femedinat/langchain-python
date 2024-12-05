@@ -6,14 +6,14 @@
 
 **Windows:**
 ```bash
-python -m venv langchain
-langchain\Scripts\activate
+python -m venv 
+Scripts\activate
 ```
 
 **Mac/Linux:**
 ```bash
-python3 -m venv langchain
-source langchain/bin/activate
+python3 -m venv 
+source bin/activate
 ```
 
 ### Instalação das Bibliotecas
