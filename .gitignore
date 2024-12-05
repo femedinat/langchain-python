@@ -1,0 +1,15 @@
+.vscode/
+.alcache/
+.alpackages/
+.snapshots/
+.output/
+*.app
+rad.json
+*.g.xlf
+*.flf
+TestResults.xml
+.env
+Lib
+pyvenv.cfg
+Scripts
+__pycache__
